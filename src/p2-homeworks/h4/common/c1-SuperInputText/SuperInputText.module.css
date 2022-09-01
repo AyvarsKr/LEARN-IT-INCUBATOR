@@ -1,0 +1,19 @@
+.superInput {
+    margin: 5px 0;
+    background: dodgerblue;
+}
+
+.input:focus {
+    outline: none;
+    border: 2px blue solid;
+}
+
+.errorInput {
+    border: 2px solid red;
+    background: dodgerblue;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}

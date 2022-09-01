@@ -1,39 +1,78 @@
-.burgerNav {
-    display: block;
-    height: 40px;
-    width: 100%;
-    background-color: #cccccc;
-    background-color: lightgrey;
-    padding: 0;
-    margin: 0;
-
-}
+/*.burgerNav {*/
+/*    display: block;*/
+/*    height: 40px;*/
+/*    width: 10%;*/
+/*    background-color: #cccccc;*/
+/*    background-color: lightgrey;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
 
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: #66FCF1;
     margin: 6px 0;
     transition: 0.2s;
 }
 
 #nav {
     overflow: hidden;
-    background: #505050;
     height: 0;
     max-height: 0px;
     list-style-type: none;
     padding-left: 0;
     -webkit-transition: linear 1s;
     transition: linear 1s;
+    z-index: 1000;
 }
 
-#nav a {
+#nav.open {
+    height: auto;
+    max-height: 500px;
+    -webkit-transition: linear 1s;
+    transition: linear 1s;
+
+}
+
+#nav li {
     float: none;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
-    width: 100%;
+    background: #0B0C10;
+    width: 10%;
     margin: 0;
     -webkit-transition: linear 1s;
     transition: linear 1s;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #66FCF1;
+    padding: 10px;
+    border: 1px solid #45A29E;
+    display: block;
+    margin: 0;
+    -webkit-transition: linear 1s;
+    transition: linear 1s;
+    font-weight: bold;
+}
+#containBurger {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
 }

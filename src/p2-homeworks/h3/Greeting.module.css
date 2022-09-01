@@ -1,0 +1,30 @@
+.hw3Wrapper {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.HW3-wrapper button, span {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.HW3-wrapper span:nth-child(2) {
+    color: red;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+ErrorInput {
+    color: red
+}
+
+.totalUser {
+    color: green;
+    font-weight: bold;
+}

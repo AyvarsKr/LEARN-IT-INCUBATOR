@@ -1,5 +1,6 @@
 {
   "name": "homeworks",
+  "homepage": "https://AyvarsKr.github.io/it_incubator_homeWorks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,17 +11,25 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "@types/uuid": "^8.3.4",
+    "add": "^2.0.6",
+    "node-uuid": "^1.4.8",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "6",
     "react-scripts": "5.0.1",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.0",
+    "yarn": "^1.22.18"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
