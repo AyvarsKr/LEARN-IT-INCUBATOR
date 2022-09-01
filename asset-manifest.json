@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/it_incubator_homeWorks/static/css/main.7eeecbc8.css",
+    "main.js": "/it_incubator_homeWorks/static/js/main.a3965d19.js",
+    "index.html": "/it_incubator_homeWorks/index.html",
+    "main.7eeecbc8.css.map": "/it_incubator_homeWorks/static/css/main.7eeecbc8.css.map",
+    "main.a3965d19.js.map": "/it_incubator_homeWorks/static/js/main.a3965d19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eeecbc8.css",
+    "static/js/main.a3965d19.js"
+  ]
+}
